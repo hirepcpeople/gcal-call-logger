@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="INVALID_ID">-1</string>
+    <string name="PREFS_CALENDAR_ID">PREFS_CALENDAR_ID</string>
+    <string name="PREFS_MISSED">PREFS_MISSED</string>
+    <string name="PREFS_INCOMING">PREFS_INCOMING</string>
+    <string name="PREFS_OUTGOING">PREFS_OUTGOING</string>
+    
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GCal Call Logger</string>
+    <string name="CALENDAR">Pick a Calendar</string>
+    <string name="MISSED">Missed</string>
+    <string name="INCOMING">Incoming</string>
+    <string name="OUTGOING">Outgoing</string>
+</resources>

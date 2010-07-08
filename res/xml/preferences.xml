@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference android:key="@string/PREFS_CALENDAR_ID"
+		android:title="@string/CALENDAR" android:defaultValue="@string/INVALID_ID"/>
+	<CheckBoxPreference android:key="@string/PREFS_MISSED"
+		android:title="@string/MISSED" android:defaultValue="true"/>
+	<CheckBoxPreference android:key="@string/PREFS_INCOMING"
+		android:title="@string/INCOMING" android:defaultValue="true"/>
+	<CheckBoxPreference android:key="@string/PREFS_OUTGOING"
+		android:title="@string/OUTGOING" android:defaultValue="true"/>
+</PreferenceScreen>
