@@ -1,2 +1,9 @@
 Version 0.5 Beta:
 initial release with admob
+
+Version 0.6 Beta:
+add logging reporting
+fix calendar iterator in perferences activity
+
+Version 0.7 Beta:
+add support back to sdk 3 (1.5)
