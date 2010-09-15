@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="lib" path="libs/admob-sdk-android.jar"/>
+	<classpathentry kind="lib" path="/home/dahlb/android/google-api-client-1.1.0-alpha/google-api-client-1.1.0-alpha.jar" sourcepath="/opt/brendan/documents/computer/android/google-api-client-1.1.0-alpha/google-api-client-1.1.0-alpha-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -18,6 +18,10 @@
 
 package com.dahl.brendan.calllog;
 
+import java.util.Map;
+
+import com.google.api.client.xml.XmlNamespaceDictionary;
+
 import android.net.Uri;
 import android.os.Build;
 
@@ -30,7 +34,28 @@ public class Constants {
 			contentProvider = "com.android.calendar";
 		}
 	}
-	final public static Uri CALENDARS_URI = Uri.parse(String.format("content://%s/calendars",contentProvider));
-	final public static Uri EVENTS_URI = Uri.parse(String.format("content://%s/events",contentProvider));
+	final public static Uri CALENDARS_URI = Uri.parse(String.format("content://%s/calendars", contentProvider));
+	final public static Uri EVENTS_URI = Uri.parse(String.format("content://%s/events", contentProvider));
 	final public static String PREFS_OLDID = "prefs_oldid";
+	final public static String PREFS_ACCOUNT_NAME = "prefs_account_name";
+
+	final public static String AUTH_TOKEN_TYPE = "lh2";
+	final public static int RESULT_AUTHENTICATE = 0;
+	final public static String ALLOWED_ACCOUNT_TYPE = "com.google";
+	public static final XmlNamespaceDictionary NAMESPACE_DICTIONARY = new XmlNamespaceDictionary();
+	static {
+		Map<String, String> map = NAMESPACE_DICTIONARY.namespaceAliasToUriMap;
+		map.put("", "http://www.w3.org/2005/Atom");
+		map.put("atom", "http://www.w3.org/2005/Atom");
+		map.put("exif", "http://schemas.google.com/photos/exif/2007");
+		map.put("gd", "http://schemas.google.com/g/2005");
+		map.put("geo", "http://www.w3.org/2003/01/geo/wgs84_pos#");
+		map.put("georss", "http://www.georss.org/georss");
+		map.put("gml", "http://www.opengis.net/gml");
+		map.put("gphoto", "http://schemas.google.com/photos/2007");
+		map.put("media", "http://search.yahoo.com/mrss/");
+		map.put("openSearch", "http://a9.com/-/spec/opensearch/1.1/");
+		map.put("xml", "http://www.w3.org/XML/1998/namespace");
+	}
+
 }
