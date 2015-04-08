@@ -1,0 +1,1 @@
+GCall Call Logger is an app I made to log android calls to a google calendar with minimium system resources
